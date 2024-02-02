@@ -1,13 +1,15 @@
 {
   "expo": {
-    "name": "recruit",
+    "owner": "zakistt",
+    "diplayName": "Easy Work", 
+    "name": "Easy Work",
     "slug": "recruit",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,16 +20,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expo.recruit"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zakistt.recruit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "recruit",
+    "extra": {
+      "eas": {
+        "projectId": "a71ae415-2775-4a77-bcf3-97c5c3487d5a"
+      }
     }
   }
 }
